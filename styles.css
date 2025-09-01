@@ -1,0 +1,279 @@
+/* Fuente */
+body {
+  margin: 0;
+  padding: 0;
+  width: 1900px;
+  height: 1200px;
+  font-family: 'Arimo', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* Barra superior */
+#barra-superior {
+  width: 1900px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+a {
+color: black; /* Color de opciones barra superior*/
+text-decoration: none;
+}
+a:hover {
+color: red; /**/
+
+}
+
+/* Menú principal */
+#menu-principal {
+  width: 1400px; /* más angosto */
+  height: 80px;
+  margin: 0 auto; /* centrado */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+#logo {
+  width: 200px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#opciones-menu {
+  display: flex;
+  gap: 50px;
+  font-size: 22px;
+}
+
+#extras-menu {
+  display: flex;
+  gap: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+#sale a {
+  color: red;
+}
+
+#sale a:hover {
+  color: black;
+}
+
+/* Cajas Hombre y Mujer */
+#contenedor-hm {
+  display: flex;
+  width: 1900px;
+  height: 600px;
+}
+
+.caja-hm {
+  width: 950px;
+  height: 600px;
+  position: relative;
+  background-color: lightgray; /* espacio para imágenes */
+  background-size: cover;
+  background-position: center;
+}
+
+#hombre {
+  background-size: cover;
+  background-image: url(Imagenes/HOMBRE.jpg);
+}
+
+#mujer {
+  background-image: url(Imagenes/MUJER.jpg); /* aquí pones tu foto */
+}
+
+.titulo-caja {
+  background-color: black;
+  color: white;
+  font-size: 42px;
+  padding: 8px 16px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Sección inferior */
+#seccion-inferior {
+  width: 1900px;
+  height: 480px;
+  display: flex;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+#registro {
+  width: 600px;
+  padding: 20px;
+}
+
+#registro h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#registro p {
+  font-size: 18px;
+  color: red;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding: 20px;
+}
+
+.columna {
+  width: 300px;
+}
+
+.columna h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.columna p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+
+/* Cajas Hombre y Mujer secciones*/
+
+#contenedor-hombreymujer-seccion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre cajas */
+    justify-content: center; /* centra las cajas al medio */
+    padding: 20px;
+}
+
+.caja-hym {
+    width: 500px; /* Ajusta el tamaño de cada caja (3 cajas por fila) */
+    height: 500px;
+    position: relative;
+    
+
+}
+
+.caja-hym img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho de la caja */
+    height: 100%; /* Asegura que la imagen tenga la altura completa de la caja */
+    object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionarla */
+}
+
+#hombre-1 {
+    background-size: cover;
+    background-image: url(Imagenes/hombre.1.jpg); 
+}
+
+#hombre-2 {
+    background-size: cover;
+    background-image: url(Imagenes/hombre.2.jpg);
+}
+
+#hombre-3 {
+    background-size: cover;
+    background-image: url(Imagenes/hombre.3.jpg);
+}
+
+#hombre-4 {
+    background-size: cover;
+    background-image: url(Imagenes/hombre.4.jpg);
+}
+
+#hombre-5 {
+    background-size: cover;
+    background-image: url(Imagenes/hombre.5.jpg);
+}
+
+#hombre-6 {
+    background-size: cover;
+    background-image: url(Imagenes/hombre.6.jpg);
+}
+
+#mujer-1 {
+    background-size: cover;
+    background-image: url(Imagenes/mujer.1.jpg); 
+}
+
+#mujer-2 {
+    background-size: cover;
+    background-image: url(Imagenes/mujer.2.jpg);
+}
+
+#mujer-3 {
+    background-size: cover;
+    background-image: url(Imagenes/mujer.3.jpg);
+}
+
+#mujer-4 {
+    background-size: cover;
+    background-image: url(Imagenes/mujer.4.jpg);
+}
+
+#mujer-5 {
+    background-size: cover;
+    background-image: url(Imagenes/mujer.5.jpg);
+}
+
+#mujer-6 {
+    background-size: cover;
+    background-image: url(Imagenes/mujer.6.jpg);
+}
+
+
+#sale-1 {
+    background-size: cover;
+    background-image: url(Imagenes/SALE.1.jpg);
+}
+
+#sale-2 {
+    background-size: cover;
+    background-image: url(Imagenes/SALE.2.jpg);
+}
+
+
+#sale-3 {
+    background-size: cover;
+    background-image: url(Imagenes/SALE.3.jpg);
+}
+
+
+#sale-4 {
+    background-size: cover;
+    background-image: url(Imagenes/SALE.4.jpg);
+}
+
+
+#sale-5 {
+    background-size: cover;
+    background-image: url(Imagenes/SALE.5.jpg);
+}
+
+#sale-6 {
+    background-size: cover;
+    background-image: url(Imagenes/SALE.6.jpg);
+}
+
+.titulo-caja-hombre {
+  color: black;
+  font-size: 20px;
+
+}
+
+
